@@ -58,6 +58,10 @@ class Tarningsspel:
                                         bg="orange", command=self.visa_startmeny)
         self.restart_button.pack(pady=10)
 
+        self.restart_label = tk.Label(self.root, text="🎲", font=("Arial", 40)) 
+        self.restart_label.pack(pady=10)
+
+
     def kasta(self):
         if self.spel_over:
             return
